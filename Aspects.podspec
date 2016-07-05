@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Peter Steinberger" => "steipete@gmail.com" }
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.7'
-  s.source       = { :git => "https://github.com/steipete/Aspects.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/joywt/Aspects.git", :tag => "#{s.version}" }
   s.source_files  = 'Aspects.{h,m}'
   s.requires_arc = true;
   s.social_media_url = "https://twitter.com/steipete"
